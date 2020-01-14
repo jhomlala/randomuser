@@ -10,13 +10,13 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  dio: ^1.0.14
-  rxdart: ^0.20.0
+  dio: ^3.0.8
+  rxdart: ^0.23.1
 
 
   # The following adds the Cupertino Icons font to your application.
