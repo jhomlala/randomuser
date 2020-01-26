@@ -47,7 +47,9 @@ class _UserWidgetState extends State<UserWidget> {
         Padding(
           padding: EdgeInsets.only(top: 5),
         ),
-        CircularProgressIndicator(valueColor: new AlwaysStoppedAnimation<Color>(Colors.white),)
+        CircularProgressIndicator(
+          valueColor: new AlwaysStoppedAnimation<Color>(Colors.white),
+        )
       ],
     ));
   }
@@ -57,7 +59,8 @@ class _UserWidgetState extends State<UserWidget> {
         child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text("Error occured: $error", style: Theme.of(context).textTheme.subtitle),
+        Text("Error occured: $error",
+            style: Theme.of(context).textTheme.subtitle),
       ],
     ));
   }
@@ -80,7 +83,11 @@ class _UserWidgetState extends State<UserWidget> {
         Padding(
           padding: EdgeInsets.only(top: 5),
         ),
-        Text(user.location.street.name + ", " + user.location.street.number.toString(), style: Theme.of(context).textTheme.body1),
+        Text(
+            user.location.street.name +
+                ", " +
+                user.location.street.number.toString(),
+            style: Theme.of(context).textTheme.body1),
         Padding(
           padding: EdgeInsets.only(top: 5),
         ),

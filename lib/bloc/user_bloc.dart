@@ -17,6 +17,6 @@ class UserBloc {
   }
 
   BehaviorSubject<UserResponse> get subject => _subject;
-
 }
+
 final bloc = UserBloc();
